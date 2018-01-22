@@ -1,0 +1,212 @@
+@font-face {
+	font-family: 'pen';
+	src: url('../font/pen/iconfont.eot');
+	src: url('../font/pen/iconfont.eot?#iefix') format('embedded-opentype'),
+	url('../font/pen/iconfont.woff') format('woff'),
+	url('../font/pen/iconfont.ttf') format('truetype'),
+	url('../font/pen/iconfont.svg#iconfont') format('svg');
+}
+
+@font-face {
+	font-family: 'clock';
+	src: url('../font/clock/iconfont.eot');
+	src: url('../font/clock/iconfont.eot?#iefix') format('embedded-opentype'),
+	url('../font/clock/iconfont.woff') format('woff'),
+	url('../font/clock/iconfont.ttf') format('truetype'),
+	url('../font/clock/iconfont.svg#iconfont') format('svg');
+}
+
+@font-face {
+	font-family: 'envelope';
+	src: url('../font/envelope/iconfont.eot');
+	src: url('../font/envelope/iconfont.eot?#iefix') format('embedded-opentype'),
+	url('../font/envelope/iconfont.woff') format('woff'),
+	url('../font/envelope/iconfont.ttf') format('truetype'),
+	url('../font/envelope/iconfont.svg#iconfont') format('svg');
+}
+
+@font-face {
+	font-family: 'home';
+	src: url('../font/home/iconfont.eot');
+	src: url('../font/home/iconfont.eot?#iefix') format('embedded-opentype'),
+	url('../font/home/iconfont.woff') format('woff'),
+	url('../font/home/iconfont.ttf') format('truetype'),
+	url('../font/home/iconfont.svg#iconfont') format('svg');
+}
+
+@font-face {
+	font-family: 'people';
+	src: url('../font/people/iconfont.eot');
+	src: url('../font/people/iconfont.eot?#iefix') format('embedded-opentype'),
+	url('../font/people/iconfont.woff') format('woff'),
+	url('../font/people/iconfont.ttf') format('truetype'),
+	url('../font/people/iconfont.svg#iconfont') format('svg');
+}
+
+@font-face {
+	font-family: 'setup';
+	src: url('../font/setup/iconfont.eot');
+	src: url('../font/setup/iconfont.eot?#iefix') format('embedded-opentype'),
+	url('../font/setup/iconfont.woff') format('woff'),
+	url('../font/setup/iconfont.ttf') format('truetype'),
+	url('../font/setup/iconfont.svg#iconfont') format('svg');
+}
+
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: #E7E1CD;
+}
+
+.zhengti {
+	margin: 50px auto;
+	text-align: center;
+	width: 1300px;
+	height: 500px;
+}
+
+.content {
+	margin-top: 30px;
+}
+
+ul {
+	margin-left: 50px;
+}
+
+.li {
+	position: relative;
+	width: 200px;
+	height: 230px;
+	background-color: #e86a04;
+	float: left;
+	margin-left: 0px;
+	list-style: none;
+	transition: all 0.6s; 
+}
+
+.font {
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	background-color: rgba(255,255,255,0.3);
+	border-radius: 50%;
+	position: absolute;
+	top: 30px;
+	left: 60px;
+	font-size: 40px;
+	color: rgba(255,255,255,0.9);
+	z-index: 1;
+}
+
+
+.up1 {
+	font-family: "pen";
+}
+
+.up2 {
+	font-family: "Home";
+}
+
+.up3 {
+	font-family: "Setup";
+}
+
+.up4 {
+	font-family: "People";
+}
+
+.up5 {
+	font-family: "Envelope";
+}
+
+.up6 {
+	font-family: "Clock";
+}
+
+.b {
+	background-color: #ff9600;
+	transition: all 0.6s; 
+}
+
+.c {
+	background-color: #44a9ca;
+}
+
+.d {
+	background-color: #244588;
+}
+
+.e {
+	background-color: #414752;
+}
+
+.f {
+	background-color: #141e31;
+}
+
+
+
+.down {
+	line-height: 50px;
+	width: 200px;
+	height: 50px;
+	font-size: 22px;
+	color: white;
+	position: absolute;
+	bottom: 20px;
+	left: 0px;
+	font-family: arial;
+}
+
+.circle {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	position: absolute;
+	top: 30px;
+	left: 60px;
+	background-color: rgba(255,255,255,0);
+	transition: all 0.6s; 
+	transform: scale(1.6);
+}
+
+.li:hover .circle {
+	transform: scale(1);
+	background-color: rgba(255,255,255,0.3);
+}
+
+.li:hover {
+	height: 250px;
+}
+
+.li:hover .font {
+	color: rgba(255,255,255,1);
+}
+
+.a:hover {
+	border-bottom: 5px solid #be7a19;
+}
+
+.b:hover {
+	border-bottom: 5px solid #a16208;
+}
+
+.c:hover {
+	border-bottom: 5px solid #0a6482;
+}
+
+.d:hover {
+	border-bottom: 5px solid #102859;
+}
+
+.e:hover {
+	border-bottom: 5px solid #1b2028;
+}
+
+.f:hover {
+	border-bottom: 5px solid #0b111b;
+}
